@@ -21,12 +21,12 @@ jobs:
       - name: Setup Node.js (设置 node 版本)
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 21.5.0
 
       - name: Install pnpm (安装 pnpm)
         uses: pnpm/action-setup@v2
         with:
-          version: 7.0.0
+          version: 8.12.1
 
       - name: Install dependencies (安装依赖)
         run: pnpm install
