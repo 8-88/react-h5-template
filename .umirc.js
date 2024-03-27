@@ -10,7 +10,7 @@ export default defineConfig({
     }),
   ],
   define: {
-    baseApi: "https://apidev.somedomain.com",
+    baseApi: "https://8-88.github.io/react-h5-template",
     "process.env": {
       NODE_ENV: "dev",
       UMI_ENV: "dev",
